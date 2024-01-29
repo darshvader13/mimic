@@ -1,0 +1,1 @@
+Uses GPT to mimic a user's writing style using writing samples
