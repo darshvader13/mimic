@@ -3,8 +3,7 @@ import docx2txt
 import os
 import json
 
-api_key = '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'
-openai.api_key = api_key
+openai.api_key = os.getenv("api_key")
 
 def write_jsonl(file_path, data):
     with open(file_path, 'a') as file:
