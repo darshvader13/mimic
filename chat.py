@@ -2,8 +2,7 @@ import openai
 import docx2txt
 import os
 
-api_key = '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'
-openai.api_key = api_key
+openai.api_key = os.getenv("api_key")
 
 #l = openai.FineTuningJob.list(limit=10)
 #print(l)
